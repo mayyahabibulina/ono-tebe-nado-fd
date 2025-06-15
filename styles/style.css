@@ -110,10 +110,10 @@
 .cover__title-line {
     display: block;
     text-transform: uppercase;
-    white-space: nowrap; /* предотвращает перенос строк */
+    white-space: nowrap; 
     margin-top: 110px;
-    font-size: 100px; /* примерный размер, подберите точный */
-    letter-spacing: 30px; /* регулируйте по макету */
+    font-size: 100px; 
+    letter-spacing: 30px; 
 }
 
 .cover__title-line:nth-child(1) {
@@ -124,13 +124,13 @@
 .cover__title-line:nth-child(2) {
     text-align: center;
     margin-top: 30px;
-    padding-left: 30px; /* или небольшой сдвиг, если нужно */
+    padding-left: 30px; 
 }
 
 .cover__title-line:nth-child(3) {
     text-align: right;
     margin-top: 25px;
-    padding-left: 620px; /* или небольшой сдвиг */
+    padding-left: 620px; 
 }
 
 .cover__footer {
@@ -152,7 +152,7 @@
     white-space: nowrap;
     display: flex;
     align-items: center;
-    padding: 10px 0; /* Вместо height - вертикальные отступы */
+    padding: 10px 0; 
 }
 
 .cover__button {
@@ -219,13 +219,13 @@
 
 .lot-item {
     position: relative;
-    width: 334px; /* или max-width для адаптивности */
-    min-height: 596px; /* минимальная гарантированная высота */
-    padding: 20px; /* внутренние отступы вместо фиксированной высоты */
-    box-sizing: border-box; /* чтобы padding не увеличивал общие размеры */
+    width: 334px; 
+    min-height: 596px; 
+    padding: 20px; 
+    box-sizing: border-box; 
 }
 
-/* Добавляем фоновые изображения для каждого элемента */
+
 .lot-item-01 .lot-card {
     background-image: url('../images/card-lot-01.jpg');
 }
