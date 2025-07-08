@@ -3,8 +3,8 @@
     justify-content: space-between;
     align-items: center;
     width: 1100px;
-    padding-bottom: 143px;
-    padding-top: 49px;
+    padding-bottom: 100px;
+    padding-top: 70px;
     padding-left: 51px; /* соответствует бывшему margin-left навигации */
     padding-right: 87px;
 }
@@ -40,7 +40,7 @@
 .header__logo {
     display: flex;
     align-items: center;
-    margin-right: 148px;
+    margin-right: 140px;
 }
 
 .header__logo img {
@@ -104,6 +104,7 @@
     margin-top: 110px;
     font-size: 100px;
     letter-spacing: 30px;
+    position: relative;
 }
 
 .cover__title-line:nth-child(1) {
@@ -120,12 +121,10 @@
 .cover__title-line:nth-child(3) {
     text-align: left;
     margin-top: 20px;
-    padding-left: 615px;
+    text-align: right;
 }
 
 .cover__footer {
-    left: 50px;
-    right: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -207,6 +206,9 @@
     width: 334px;
     min-height: 596px;
     box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .lot-card::before {
@@ -222,23 +224,14 @@
 
 .lot-item--film {
     background-image: url("../images/card-lot-01.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .lot-item--book {
     background-image: url("../images/card-lot-02.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .lot-item--picture {
     background-image: url("../images/card-lot-03.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .lot-title {
@@ -255,10 +248,11 @@
 
 .lot-description {
     font-size: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     color: #fff;
     z-index: 1;
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 .more-link-container {
@@ -324,15 +318,12 @@
 
 .about__paragraph {
     margin-bottom: 10px;
-    width: 100%;
+    max-width: 800px;
 }
 
-.about__paragraph:last-child {
-    width: 100%;
-}
 
 .footer {
-    padding: 0px 50px 50px;
+    padding: 80px 50px 50px;
     color: #000000;
 }
 
@@ -351,7 +342,7 @@
 .footer__nav-list {
     list-style: none;
     font-style: normal;
-    padding: 0;
+    padding-right: 20px;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -371,6 +362,7 @@
     display: flex;
     gap: 48px;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 .social__icon {
