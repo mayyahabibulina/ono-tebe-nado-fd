@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     width: 1100px;
-    padding-bottom: 80px;
+    padding-bottom: 90px;
     padding-top: 90px;
     padding-left: 51px; /* соответствует бывшему margin-left навигации */
     padding-right: 87px;
@@ -40,7 +40,7 @@
 .header__logo {
     display: flex;
     align-items: center;
-    margin-right: 160px;
+    margin-right: 170px;
 }
 
 .header__logo img {
@@ -121,6 +121,9 @@
 .cover__title-line:nth-child(3) {
     margin-top: 20px;
     text-align: right;
+    padding-right: 0;
+    position: relative;
+    margin-right: -30px; 
 }
 
 .cover__footer {
