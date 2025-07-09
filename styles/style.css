@@ -339,12 +339,12 @@
 
 
 .footer {
-    padding: 50px 50px 50px;
+    padding: 0px 50px 50px;
     color: #000000;
 }
 
 .footer__container {
-    max-width: 1340px;
+    max-width: 900px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
