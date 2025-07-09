@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     width: 1100px;
-    padding-bottom: 90px;
+    padding-bottom: 95px;
     padding-top: 90px;
     padding-left: 51px; /* соответствует бывшему margin-left навигации */
     padding-right: 87px;
@@ -339,7 +339,7 @@
 
 
 .footer {
-    padding: 80px 50px 50px;
+    padding: 50px 50px 50px;
     color: #000000;
 }
 
@@ -358,7 +358,6 @@
 .footer__nav-list {
     list-style: none;
     font-style: normal;
-    padding-right: 20px;
     margin: 0;
     display: flex;
     flex-direction: column;
